@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap");
+* {
+  font-size: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 596px;
+  margin: auto;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+.main {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.main img {
+  width: 100%;
+  display: block;
+}
+
+.eye {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  display: none;
+}
+
+.eye img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main:hover .eye {
+  display: block;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27.72px;
+  margin-top: 16px;
+  color: #ffffff;
+}
+h1:hover {
+  color: #00fff8;
+}
+.text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  list-style: 26px;
+  margin-top: 16px;
+  color: #8bacd9;
+}
+
+.eterium {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 6.48px;
+  color: #00fff8;
+}
+.icons {
+  display: inline-flex;
+  margin-top: 24px;
+}
+.weekly {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  size: 16px;
+  line-height: 20.16px;
+  margin-left: 7.7px;
+}
+.clock {
+  color: #8bacd9;
+  display: inline-flex;
+  position: relative;
+  transform: translateX(130%);
+}
+
+hr {
+  width: 302px;
+  height: 1px;
+  top: 514px;
+  left: 26px;
+  margin-top: 24px;
+  background-color: #2e405a;
+}
+
+.name {
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.16px;
+  left: 16px;
+  position: relative;
+  top: 20px;
+}
+
+.avatar {
+  width: 33px;
+  height: 33px;
+  margin-top: 16px;
+  padding: 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.creation {
+  display: inline-flex;
+}
+
+strong {
+  color: #ffffff;
+  position: relative;
+  left: 5px;
+}
+
+strong:hover {
+  color: #00fff8;
+}
